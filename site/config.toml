@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://pedantic-brattain-b2caa7.netlify.app/"
 languageCode = "ja"
 title = "tech-blog"
 summaryLength = "10"
