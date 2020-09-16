@@ -2,7 +2,6 @@
 baseURL = "https://examplesite.com"
 languageCode = "ja"
 title = "tech-blog"
-theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
 disqusShortname = ""
