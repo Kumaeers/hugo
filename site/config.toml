@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
-languageCode = "en-us"
-title = "Liva | Personal blog template"
+languageCode = "ja"
+title = "tech-blog"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
