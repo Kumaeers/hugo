@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on tech-blog</title>
-    <link>https://examplesite.com/tags/</link>
+    <link>https://pedantic-brattain-b2caa7.netlify.app/tags/</link>
     <description>Recent content in Tags on tech-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
     
-	<atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pedantic-brattain-b2caa7.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Game</title>
-      <link>https://examplesite.com/tags/game/</link>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/game/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/tags/game/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/game/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>https://examplesite.com/tags/html/</link>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/html/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/tags/html/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New</title>
-      <link>https://examplesite.com/tags/new/</link>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/new/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/tags/new/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/new/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photos</title>
-      <link>https://examplesite.com/tags/photos/</link>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/photos/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/tags/photos/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/photos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://examplesite.com/tags/python/</link>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/python/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/tags/python/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
-      <link>https://examplesite.com/tags/react/</link>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/react/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/tags/react/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/react/</guid>
       <description></description>
     </item>
     
