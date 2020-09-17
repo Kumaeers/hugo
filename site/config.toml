@@ -4,7 +4,7 @@ languageCode = "ja"
 title = "tech-blog"
 hasCJKLanguage = true
 summaryLength = "30"
-paginate = 6
+paginate = 4
 disqusShortname = ""
 
 [outputs]
@@ -81,8 +81,8 @@ disqusShortname = ""
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "tech-blog"
+author = "Kumaeers"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # Contact Information
@@ -103,7 +103,7 @@ copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All 
 
 ############################ news letter ########################
 [params.newsletter]
-enable = true
+enable = false
 title = "Join Our Newsletter"
 content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
 
