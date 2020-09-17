@@ -1,8 +1,8 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation">
-  <div class="container">
+  <div class="container pr-0 pl-4">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-lg-5 pr-0">
       <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}"><img class="img-fluid"
           src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
@@ -11,17 +11,20 @@
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <div class="desktop-view">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto px-lg-5">
             {{ range .Site.Params.social }}
             <li class="nav-item">
-              <a class="nav-link" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+              <a class="nav-link" target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
             </li>
             {{ end }}
           </ul>
         </div>
 
-        <a class="navbar-brand mx-auto desktop-view" href="{{ .Site.BaseURL }}"><img class="img-fluid"
-            src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+        <a class="navbar-brand mx-auto pl-lg-5 desktop-view" href="{{ .Site.BaseURL }}">
+          <!-- <img class="img-fluid"
+            src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"> -->
+          <h1>{{ .Site.Title }}</h1>
+        </a>
 
         <ul class="navbar-nav">
           {{ range .Site.Menus.main }}
@@ -47,7 +50,7 @@
 
         {{ if .Site.Params.search.enable }}
         {{ "<!-- search -->" | safeHTML }}
-        <div class="search pl-lg-4">
+        <div class="search pl-3">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
             <form action="{{ .Site.BaseURL }}/search" class="h-100">
