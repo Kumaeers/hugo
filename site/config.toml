@@ -2,6 +2,7 @@
 baseURL = "https://pedantic-brattain-b2caa7.netlify.app/"
 languageCode = "ja"
 title = "tech-blog"
+hasCJKLanguage = true
 summaryLength = "10"
 paginate = 6
 disqusShortname = ""
