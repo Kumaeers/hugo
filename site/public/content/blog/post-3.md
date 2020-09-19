@@ -11,7 +11,7 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "Web Design"
+  - "Vue.js"
 tags:
   - "Photos"
   - "Game"

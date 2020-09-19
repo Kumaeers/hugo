@@ -12,7 +12,7 @@ description: "this is meta description"
 # taxonomies
 categories: 
   - "Go Language"
-
+  - "Flutter"
 # post type
 type: "post"
 ---

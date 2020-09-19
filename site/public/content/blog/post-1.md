@@ -11,7 +11,7 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "Android And Gmaing"
+  - "AWS"
 tags:
   - "Photos"
   - "Game"

@@ -11,7 +11,7 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "Python"
+  - "PHP"
 
 # post type
 type: "post"
