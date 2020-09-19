@@ -11,7 +11,7 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "REACT"
+  - "React"
 
 # post type
 type: "post"
