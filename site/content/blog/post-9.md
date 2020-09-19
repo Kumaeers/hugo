@@ -12,12 +12,6 @@ description: "this is meta description"
 # taxonomies
 categories: 
   - "Python"
-tags:
-  - "Photos"
-  - "Game"
-  - "HTML"
-  - "Python"
-  - "New"
 
 # post type
 type: "post"

@@ -12,12 +12,6 @@ description: "this is meta description"
 # taxonomies
 categories: 
   - "Web Design"
-tags:
-  - "Photos"
-  - "Game"
-  - "React"
-  - "Python"
-  - "New"
 
 # post type
 type: "featured"
