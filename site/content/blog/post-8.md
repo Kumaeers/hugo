@@ -11,7 +11,7 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "Go Language"
+  - "REACT"
 
 # post type
 type: "post"

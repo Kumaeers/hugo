@@ -12,11 +12,20 @@
     
     
     <item>
-      <title>Android And Gmaing</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/android-and-gmaing/</link>
+      <title>AWS</title>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/aws/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/android-and-gmaing/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter</title>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/flutter/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/flutter/</guid>
       <description></description>
     </item>
     
@@ -30,47 +39,38 @@
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/html/</link>
+      <title>PHP</title>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/php/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/html/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/php/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>HTML &amp; CSS</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/html-css/</link>
+      <title>REACT</title>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/react/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/html-css/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/react/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Programming Language</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/programming-language/</link>
+      <title>Ruby</title>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/ruby/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/programming-language/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/ruby/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/python/</link>
+      <title>Vue.js</title>
+      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/vue.js/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Design</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/web-design/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/web-design/</guid>
+      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/vue.js/</guid>
       <description></description>
     </item>
     

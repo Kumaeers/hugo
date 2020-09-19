@@ -6,64 +6,9 @@
     <description>Recent content in Tags on tech-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
     
 	<atom:link href="https://pedantic-brattain-b2caa7.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Game</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/game/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HTML</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/html/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/new/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/new/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photos</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/photos/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/photos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/python/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/tags/react/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/tags/react/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
