@@ -13,9 +13,11 @@
     {{- if isset .Site.Taxonomies "categories" }}
     {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
     <ul class="list-unstyled">
+      <!-- $nameがindexで$itemsがvalue -->
+      <!-- indexの$nameを回しながら表示 -->
       {{- range $name, $items := .Site.Taxonomies.categories }}
       <li><a
-          href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}</a>
+          href="{{ `categories/` | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a>
       </li>
       {{- end }}
     </ul>

@@ -27,6 +27,7 @@
         </a>
 
         <ul class="navbar-nav">
+          <!-- 子要素があればdropdownで表示する -->
           {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -54,7 +55,7 @@
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
             <form action="{{ .Site.BaseURL }}/search" class="h-100">
-              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="検索">
             </form>
             <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
           </div>
