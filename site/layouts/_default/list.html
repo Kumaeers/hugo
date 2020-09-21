@@ -6,8 +6,10 @@
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
         <div class="row">
+          <!-- 第二引数でグローバルの設定を上がいて数を指定 -->
           {{ $paginator := .Paginate .Data.Pages }}
           {{ range $paginator.Pages }}
+          <!-- 適用するcontentの種類 -->
           {{ .Render "post" }}
           {{ end }}
         </div>
@@ -18,6 +20,7 @@
 
       <!-- pagination -->
       <div class="col-12 mt-5">
+        <!-- hugoのbuilt-in template 内部的にはBootstrapを使っている これを使う前に.Paginatorを作っておく必要あり-->
         {{ template "_internal/pagination.html" . }}
       </div>
     </div>

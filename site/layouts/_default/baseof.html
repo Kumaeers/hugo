@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <!-- 部分テンプレートに"."でページ変数を渡している -->
     {{- partial "head.html" . -}}
     <body>
         {{- partial "preloader.html" . -}}

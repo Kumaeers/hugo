@@ -5,7 +5,7 @@ title = "tech-blog"
 hasCJKLanguage = true
 summaryLength = "30"
 paginate = 4
-disqusShortname = ""
+disqusShortname = "https-pedantic-brattain-b2caa7-netlify-app"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -59,10 +59,10 @@ disqusShortname = ""
   parent = "Post"
   URL = "categories/aws"
   
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
+  # [[menu.main]]
+  # name = "Contact"
+  # URL = "contact"
+  # weight = 3
 
   # footer menu
   [[menu.footer]]
@@ -100,11 +100,17 @@ copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All 
   # Preloader
   [params.preloader]
   enable = true
-  preloader = "plugins/slick/ajax-loader.gif" # use .png , .svg or .gif format
+  # preloader = "plugins/slick/ajax-loader.gif" # use .png , .svg or .gif format
+  preloader = "images/loading-svgrepo-com.svg" # use .png , .svg or .gif format
 
   # search
   [params.search]
   enable = true
+
+  # navButton
+  [params.navButton]
+  enable = true
+  label = "portfolio"
 
 ############################ news letter ########################
 [params.newsletter]

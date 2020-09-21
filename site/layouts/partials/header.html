@@ -27,8 +27,8 @@
         </a>
 
         <ul class="navbar-nav">
-          <!-- 子要素があればdropdownで表示する -->
           {{ range .Site.Menus.main }}
+          <!-- 子要素があればdropdownで表示する -->
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -49,6 +49,12 @@
           {{ end }}
         </ul>
 
+        {{ if .Site.Params.navButton.enable }}
+        {{ "<!-- get start btn -->" | safeHTML }}
+        <a href="{{ .Site.Params.navButton.link | absURL }}"
+          class="btn btn-info">{{ .Site.Params.navButton.label }}</a>
+        {{ end }}
+
         {{ if .Site.Params.search.enable }}
         {{ "<!-- search -->" | safeHTML }}
         <div class="search pl-3">
@@ -62,11 +68,6 @@
         </div>
         {{ end }}
 
-        {{ if .Site.Params.navButton.enable }}
-        {{ "<!-- get start btn -->" | safeHTML }}
-        <a href="{{ .Site.Params.navButton.link | absURL }}"
-          class="btn btn-primary ml-lg-4">{{ .Site.Params.navButton.label }}</a>
-        {{ end }}
       </div>
     </nav>
   </div>
