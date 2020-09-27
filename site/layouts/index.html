@@ -42,7 +42,6 @@
                   class="h1 font-weight-bold d-block text-dark mb-4 card-title"
                   >{{ .Title | markdownify }}</a
                 >
-                <p class="card-text">{{.Summary}}...</p>
               </div>
             </div>
           </div>
@@ -125,7 +124,6 @@
                   <span>{{ .PublishDate.Format "02 January 2006" }}</span>
                   {{ end }}
                 </div>
-                <!-- <p class="card-text">{{ .Summary }}</p> -->
                 <a href="{{ .Permalink }}" class="btn btn-outline-primary"
                   >read more</a
                 >

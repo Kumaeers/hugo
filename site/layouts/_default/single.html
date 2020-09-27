@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
@@ -20,8 +19,12 @@
         <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">
         {{ end }}
         <div class="content mb-5">
+          <!-- sidebar -->
+          {{ partial "table_of_contents.html" . }}
+          <!-- /sidebar -->
           {{ .Content }}
         </div>
+
 
         <!-- comments -->
         {{ template "_internal/disqus.html" . }}

@@ -18,7 +18,7 @@ categories:
 type: "post"
 ---
 
-# Flutter のサンプルコードについて
+## Flutter のサンプルコードについて
 
 ​
 今回は Flutter のインストール時に書かれているサンプルコードを用いて Flutter の基礎を解説していきます。
