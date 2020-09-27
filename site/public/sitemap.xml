@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/</loc>
+    <lastmod>2020-09-27T11:40:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/flutter/</loc>
+    <lastmod>2020-09-27T11:40:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-brattain-b2caa7.netlify.app/blog/flutter-1/</loc>
+    <lastmod>2020-09-27T11:40:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-brattain-b2caa7.netlify.app/</loc>
+    <lastmod>2020-09-27T11:40:42+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pedantic-brattain-b2caa7.netlify.app/about/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
@@ -23,22 +43,7 @@
   </url>
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/</loc>
-    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/aws/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/flutter/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   

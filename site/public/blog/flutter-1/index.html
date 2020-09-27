@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+  <meta charset="utf-8">
+  <title>tech-blog</title>
+  
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="description" content="Flutterチュートリアル 1">
+  <meta name="author" content="Kumaeers">
+  
+  <meta name="generator" content="Hugo 0.69.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://pedantic-brattain-b2caa7.netlify.app/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://pedantic-brattain-b2caa7.netlify.app/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://pedantic-brattain-b2caa7.netlify.app/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://pedantic-brattain-b2caa7.netlify.app/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://pedantic-brattain-b2caa7.netlify.app/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://pedantic-brattain-b2caa7.netlify.app/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://pedantic-brattain-b2caa7.netlify.app/images/favicon.png " type="image/x-icon">
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://pedantic-brattain-b2caa7.netlify.app/images/loading-svgrepo-com.svg " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container pr-0 pl-4">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-lg-5 pr-0">
+      <a class="navbar-brand mobile-view" href="https://pedantic-brattain-b2caa7.netlify.app/"><h3>tech-blog</h3></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto px-lg-5">
+            
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://github.com/Kumaeers"><i class="ti-github"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto pl-lg-5 desktop-view" href="https://pedantic-brattain-b2caa7.netlify.app/">
+          
+          <h1>tech-blog</h1>
+        </a>
+
+        <ul class="navbar-nav">
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pedantic-brattain-b2caa7.netlify.app/about">About</a>
+          </li>
+          
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Post
+            </a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://pedantic-brattain-b2caa7.netlify.app/categories/aws">AWS</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- get start btn -->
+        <a href="https://pedantic-brattain-b2caa7.netlify.app/"
+          class="btn btn-info">portfolio</a>
+        
+
+        
+        <!-- search -->
+        <div class="search pl-3">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://pedantic-brattain-b2caa7.netlify.app//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="検索">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/flutter"
+          class="text-primary">Flutter</a>
+        
+        <h2>Flutterチュートリアル 1</h2>
+        <div class="mb-3 post-meta">
+          <span>By Masataka Okada</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>27 September 2020</span>
+          
+        </div>
+        
+        <img src="https://pedantic-brattain-b2caa7.netlify.app/images/featured-post/flutter_eyec.jpg" class="img-fluid w-100 mb-4" alt="Flutterチュートリアル 1">
+        
+        <div class="content mb-5">
+          <h1 id="flutter-のサンプルコードについて">Flutter のサンプルコードについて</h1>
+<p>​
+今回は Flutter のインストール時に書かれているサンプルコードを用いて Flutter の基礎を解説していきます。
+サンプルコードには Flutter の基礎が詰まっているため、Flutter 初心者の方はまずこのコードを理解することから始めるとよいかと思います。
+​</p>
+<h2 id="widgetウィジェットとは">Widget（ウィジェット）とは</h2>
+<p>​
+Flutter に登場する専門用語はいくつかありますが、一番大切な Widget という言葉についてコードを見る前にその意味を知っておきましょう。
+​
+Widget とは Flutter の基本構成要素です。Flutter で作られる画面の１つ１つの要素はすべて Widget でできています。例えば、テキストを表示する Widget、アイコンを表示する Widget、要素を横並びに表示する Widget などといった感じです。
+​
+この Widget を組み合わせることで Flutter の画面が構成されています。
+​</p>
+<h2 id="サンプルコード解説">サンプルコード解説</h2>
+<p>​
+サンプルコードを添付します（見やすくするためにコメント行は省いています）
+​</p>
+<pre><code class="language-Flutter" data-lang="Flutter">import 'package:flutter/material.Flutter';
+​
+void main() =&gt; runApp(MyApp());
+​
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+​
+class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key, this.title}) : super(key: key);
+  final String title;
+​
+  @override
+  _MyHomePageState createState() =&gt; _MyHomePageState();
+}
+​
+class _MyHomePageState extends State&lt;MyHomePage&gt; {
+  int _counter = 0;
+​
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+​
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: &lt;Widget&gt;[
+            Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.display1,
+            ),
+          ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: Icon(Icons.add),
+      ),
+    );
+  }
+}
+​
+</code></pre><p>​
+それではコードを解説します。
+​</p>
+<h3 id="main-関数">main 関数</h3>
+<p>​</p>
+<pre><code class="language-Flutter" data-lang="Flutter">void main() =&gt; runApp(MyApp());
+</code></pre><p>​
+Flutter アプリを実行するとまず呼ばれるのがこの関数です。この関数によって MyApp クラスの内容が実行されます。
+​</p>
+<h3 id="myapp-クラス">MyApp クラス</h3>
+<p>​</p>
+<pre><code class="language-Flutter" data-lang="Flutter">class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+</code></pre><p>​
+main 関数から呼ばれたクラスです。ここで指定しているのはアプリのタイトル（title:）やアプリのテーマカラー（theme:）などアプリの基本となる情報です。ここはまだアプリの具体的な UI 表示には関わってきていません。基本設定のためのクラスだと思っていただければ大丈夫ですね。
+​
+具体的な画面の表示はホームプロパティ（home:）の MyHomePage クラス以降を見ていきます。
+​</p>
+<h3 id="myhomepage-クラスと_myhomepagestate-クラス">MyHomePage クラスと_MyHomePageState クラス</h3>
+<p>​</p>
+<pre><code class="language-Flutter" data-lang="Flutter">class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key, this.title}) : super(key: key);
+  final String title;
+​
+  @override
+  _MyHomePageState createState() =&gt; _MyHomePageState();
+}
+​
+class _MyHomePageState extends State&lt;MyHomePage&gt; {
+  int _counter = 0;
+​
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+​
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: &lt;Widget&gt;[
+            Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.display1,
+            ),
+          ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: Icon(Icons.add),
+      ),
+    );
+  }
+}
+</code></pre><p>​
+構成としては MyHomePage クラス内の createState()関数で_MyHomePageState クラスを呼んでいる形になっているかと思います。そして_MyHomePageState 内のビルド関数で初期画面の UI を構成しています。
+​
+ここで Widget という言葉の意味を再度思い出してください。
+例えばこれはテキストを表示するウィジェットです。中に表示したいテキストを書くだけで文字を表示してくれます。
+​</p>
+<pre><code class="language-Flutter" data-lang="Flutter">Text(
+  'You have pushed the button this many times:',
+),
+</code></pre><p>​
+これはフローティングアクションボタンを表示するウィジェットです。Twitter で投稿を作成するときに押下する右下にあるボタンのことですね。
+​
+これは先ほどと異なり３つオプションがあります。onPressed にはボタンが押下されたときの挙動を書きます。tooltip にはマウスオーバーしたときに表示される言葉を書きます。child にはアイコンのデザインを書きます。今回は数字をインクリメントしたいのでプラスボタンのデザインが採用されています。
+​</p>
+<pre><code class="language-Flutter" data-lang="Flutter">FloatingActionButton(
+  onPressed: _incrementCounter,
+  tooltip: 'Increment',
+  child: Icon(Icons.add),
+),
+</code></pre><p>​
+このように Flutter にはさまざまな Widget があり、Widget を組み合わせて UI を作成していきます。
+​
+構成がわかったところで実際にカウントアップのボタンを押下した時にどのような仕組みでアプリが動くのかを見ていきましょう。
+​
+まず、カウントアップのボタンが押下されると、FloatingActionButton ウィジェットの
+onPressed オプションの_incrementCounter メソッドが実行されます。そうすることで_counter という変数が１ずつインクリメントされていくわけですね。
+​</p>
+<pre><code class="language-Flutter" data-lang="Flutter">int _counter = 0;
+​
+floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+​
+void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+</code></pre><p>​
+このとき setState というメソッドが気になったかと思います。
+これは Flutter が用意してくれているメソッドで、画面を再読み込みさせるメソッドです。
+つまり最初は０だった_counter 変数を１にインクリメントした後に再読み込みさせるのです。
+こうすることで画面上には１が表示されることになります。
+​
+ボタンを押下する度にこの動作を繰り返すことで 2.3.4&hellip;と画面上の数字が増加していく仕組みになっています。
+​</p>
+<h2 id="まとめ">まとめ</h2>
+<p>今回は Widget という言葉の説明と UI の構成、サンプルコードがどのような動きをしているのかを簡単に解説しました。
+どうやって数字が増えていくのかの大まかな仕組みがわかっていただけたと思います。
+​
+ややこしくしないためにあえて説明を省いたり、言葉を変更している箇所も多いので、もっと詳しく知りたい方は Flutter の公式サイトを見てみてください。
+​
+サンプルコードが理解できたら、ウィジェットを追加したり変更を加えたりしながら学んでみてください！
+​
+それでは！</p>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-pedantic-brattain-b2caa7-netlify-app" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="col-12 border-top py-4 text-center">
+    | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://pedantic-brattain-b2caa7.netlify.app/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://pedantic-brattain-b2caa7.netlify.app/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://pedantic-brattain-b2caa7.netlify.app/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://pedantic-brattain-b2caa7.netlify.app/plugins/slick/slick.min.js"></script>
+
+<script src="https://pedantic-brattain-b2caa7.netlify.app/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://pedantic-brattain-b2caa7.netlify.app/plugins/search/fuse.min.js"></script>
+
+<script src="https://pedantic-brattain-b2caa7.netlify.app/plugins/search/mark.js"></script>
+
+<script src="https://pedantic-brattain-b2caa7.netlify.app/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://pedantic-brattain-b2caa7.netlify.app/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'Your ID', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
