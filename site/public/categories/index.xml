@@ -20,59 +20,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>AWS</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/aws/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go Language</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/go-language/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/go-language/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PHP</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/php/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/react/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/ruby/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vue.js</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/categories/vue.js/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/categories/vue.js/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
