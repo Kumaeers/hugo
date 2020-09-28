@@ -15,7 +15,7 @@ categories:
   - "flutter"
 
 # post type
-type: "post"
+type: "featured"
 ---
 
 ## Flutter のサンプルコードについて
