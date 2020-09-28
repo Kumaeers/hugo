@@ -1,13 +1,17 @@
 {{- define "breadcrumb" }}
+<!-- 最上位の親ページになるまで再帰的に上位ページ取得 -->
   {{- if .node.Parent }}
     {{- template "breadcrumb" (dict "node" .node.Parent "start" .start) }}
+  <!-- また自分自身がHomeページじゃないので、強制的にhomeページを取得 -->
   {{- else if not .node.IsHome }}
     {{- template "breadcrumb" (dict "node" .node.Site.Home "start" .start) }}
   {{- end }}
 
+  <!-- 自分のパスはliで表示 -->
   {{- if eq .node .start }}
     <li>{{ .node.LinkTitle }}
   {{- else }}
+  <!-- それ以外はaタグ -->
     <li><a href="{{ .node.Permalink }}" style="color:orange">{{ .node.LinkTitle }}</a>
   {{- end }}
 {{- end }}
