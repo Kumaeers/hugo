@@ -1,10 +1,10 @@
 ---
 title: "About"
-date: 2019-10-29T13:49:23+06:00
+date: 2020-09-27T11:40:42Z
 draft: false
 
 # meta description
-description: "this is meta description"
+description: "About Blog"
 
 # type
 type : "about"
