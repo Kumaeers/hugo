@@ -96,6 +96,7 @@ email = "demo@email.com"
 location = "Dhaka, Bangladedsh"
 # copyright
 copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved |"
+amazonJpAffiliate = "taigakatou032-22"
 
   # Preloader
   [params.preloader]
