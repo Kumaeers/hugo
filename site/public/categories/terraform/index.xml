@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tech-blog</title>
-    <link>https://pedantic-brattain-b2caa7.netlify.app/</link>
-    <description>Recent content on tech-blog</description>
+    <title>Terraform on tech-blog</title>
+    <link>https://pedantic-brattain-b2caa7.netlify.app/categories/terraform/</link>
+    <description>Recent content in Terraform on tech-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 30 Sep 2020 08:07:58 +0000</lastBuildDate>
     
-	<atom:link href="https://pedantic-brattain-b2caa7.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pedantic-brattain-b2caa7.netlify.app/categories/terraform/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://pedantic-brattain-b2caa7.netlify.app/blog/book_review_of_terraform/</guid>
       <description>はじめに 前からずっとInfra as a codeに興味があり、こち</description>
-    </item>
-    
-    <item>
-      <title>Flutterチュートリアル 1</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/blog/flutter-1/</link>
-      <pubDate>Sun, 27 Sep 2020 11:40:42 +0000</pubDate>
-      
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/blog/flutter-1/</guid>
-      <description>Flutter のサンプルコードについて ​ 今回は Flutter のインストール時に書かれ</description>
     </item>
     
   </channel>

@@ -4,6 +4,26 @@
   
   <url>
     <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/</loc>
+    <lastmod>2020-09-30T08:07:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-brattain-b2caa7.netlify.app/</loc>
+    <lastmod>2020-09-30T08:07:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/terraform/</loc>
+    <lastmod>2020-09-30T08:07:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-brattain-b2caa7.netlify.app/blog/book_review_of_terraform/</loc>
+    <lastmod>2020-09-30T08:07:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-brattain-b2caa7.netlify.app/about/</loc>
     <lastmod>2020-09-27T11:40:42+00:00</lastmod>
   </url>
   
@@ -15,16 +35,6 @@
   <url>
     <loc>https://pedantic-brattain-b2caa7.netlify.app/blog/flutter-1/</loc>
     <lastmod>2020-09-27T11:40:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/</loc>
-    <lastmod>2020-09-27T11:40:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/about/</loc>
-    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
   <url>
