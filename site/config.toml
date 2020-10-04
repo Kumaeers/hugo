@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://pedantic-brattain-b2caa7.netlify.app/"
 languageCode = "ja"
-title = "tech-blog"
+title = "techistory"
 hasCJKLanguage = true
 summaryLength = "30"
 paginate = 4
@@ -86,7 +86,7 @@ disqusShortname = "https-pedantic-brattain-b2caa7-netlify-app"
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "tech-blog"
+description = "techistory"
 author = "Kumaeers"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
