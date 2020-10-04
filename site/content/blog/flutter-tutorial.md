@@ -1,5 +1,5 @@
 ---
-title: "Flutterチュートリアル 1"
+title: "Flutterチュートリアル"
 date: 2020-09-27T11:40:42Z
 draft: false
 author: "Masataka Okada"
@@ -8,7 +8,7 @@ author: "Masataka Okada"
 image: "images/featured-post/flutter_eyec.jpg"
 
 # meta description
-description: "Flutterチュートリアル 1"
+description: "Flutterチュートリアル"
 
 # taxonomies
 categories:

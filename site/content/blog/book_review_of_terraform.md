@@ -19,7 +19,7 @@ type: "post"
 ---
 
 ## はじめに
-前からずっとInfra as a codeに興味があり、こちらの本を写経してみました！
+前からずっとInfrastructure as a codeに興味があり、こちらの本を写経してみました！
 
 {{< amazon asin="4844378139" title="実践terraform awsにおけるシステム設計とベストプラクティス" >}}
 
