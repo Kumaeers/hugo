@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://pedantic-brattain-b2caa7.netlify.app/"
+baseURL = "https://techistory-blog.com/"
 languageCode = "ja"
 title = "techistory"
 hasCJKLanguage = true
