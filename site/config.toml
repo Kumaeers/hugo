@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://techistory-blog.com/"
 languageCode = "ja"
-title = "techistory"
+title = "Techistory"
 hasCJKLanguage = true
 summaryLength = "30"
 paginate = 4
@@ -88,7 +88,7 @@ pygmentsUseClasses = true
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "techistory"
+description = "TechistroyはWeb開発に関する記事を発信しているブログです。"
 author = "Kumaeers"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
