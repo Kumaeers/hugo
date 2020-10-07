@@ -5,8 +5,10 @@
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- withはあれば表示 -->
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
   <!-- hugoのバージョンタグ -->
   {{ hugo.Generator }}
 
@@ -18,8 +20,9 @@
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-  <link rel="stylesheet" href="/css/breadcrumb.css">
-  <link rel="stylesheet" href="/css/amazon.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/breadcrumb.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/amazon.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css">
 
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">

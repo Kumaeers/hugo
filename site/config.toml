@@ -6,6 +6,8 @@ hasCJKLanguage = true
 summaryLength = "30"
 paginate = 4
 disqusShortname = "https-pedantic-brattain-b2caa7-netlify-app"
+pygmentsUseClasses = true
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
