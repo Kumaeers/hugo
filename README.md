@@ -2,4 +2,4 @@
 
 ## Demo
 
-https://pedantic-brattain-b2caa7.netlify.app/
+[Techistory](https://techistory-blog.com/)
