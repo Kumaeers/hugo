@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on techistory</title>
-    <link>https://pedantic-brattain-b2caa7.netlify.app/tags/</link>
+    <link>https://techistory-blog.com/tags/</link>
     <description>Recent content in Tags on techistory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     
-	<atom:link href="https://pedantic-brattain-b2caa7.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techistory-blog.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

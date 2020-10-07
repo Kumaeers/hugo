@@ -13,6 +13,7 @@ description: "実践terraform awsにおけるシステム設計とベストプ�
 # taxonomies
 categories:
   - "Terraform"
+  - "bookreview"
 
 # post type
 type: "post"

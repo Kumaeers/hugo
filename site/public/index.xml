@@ -2,30 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>techistory</title>
-    <link>https://pedantic-brattain-b2caa7.netlify.app/</link>
+    <link>https://techistory-blog.com/</link>
     <description>Recent content on techistory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 30 Sep 2020 08:07:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2020 08:57:10 +0000</lastBuildDate>
     
-	<atom:link href="https://pedantic-brattain-b2caa7.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techistory-blog.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Go_practice</title>
+      <link>https://techistory-blog.com/blog/book_review_of_go_practice/</link>
+      <pubDate>Sun, 04 Oct 2020 08:57:10 +0000</pubDate>
+      
+      <guid>https://techistory-blog.com/blog/book_review_of_go_practice/</guid>
+      <description>第一部まとめ POSTは冪等性でも安全でもないHTTPメソッド</description>
+    </item>
+    
+    <item>
       <title>「実践terraform awsにおけるシステム設計とベストプラクティス」をやってみた</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/blog/book_review_of_terraform/</link>
+      <link>https://techistory-blog.com/blog/book_review_of_terraform/</link>
       <pubDate>Wed, 30 Sep 2020 08:07:58 +0000</pubDate>
       
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/blog/book_review_of_terraform/</guid>
+      <guid>https://techistory-blog.com/blog/book_review_of_terraform/</guid>
       <description>はじめに 前からずっとInfrastructure as a code</description>
     </item>
     
     <item>
       <title>Flutterチュートリアル</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/blog/flutter-tutorial/</link>
+      <link>https://techistory-blog.com/blog/flutter-tutorial/</link>
       <pubDate>Sun, 27 Sep 2020 11:40:42 +0000</pubDate>
       
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/blog/flutter-tutorial/</guid>
+      <guid>https://techistory-blog.com/blog/flutter-tutorial/</guid>
       <description>Flutter のサンプルコードについて ​ 今回は Flutter のインストール時に書かれ</description>
     </item>
     

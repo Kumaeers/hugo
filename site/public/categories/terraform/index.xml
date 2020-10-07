@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terraform on techistory</title>
-    <link>https://pedantic-brattain-b2caa7.netlify.app/categories/terraform/</link>
+    <link>https://techistory-blog.com/categories/terraform/</link>
     <description>Recent content in Terraform on techistory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 30 Sep 2020 08:07:58 +0000</lastBuildDate>
     
-	<atom:link href="https://pedantic-brattain-b2caa7.netlify.app/categories/terraform/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techistory-blog.com/categories/terraform/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>「実践terraform awsにおけるシステム設計とベストプラクティス」をやってみた</title>
-      <link>https://pedantic-brattain-b2caa7.netlify.app/blog/book_review_of_terraform/</link>
+      <link>https://techistory-blog.com/blog/book_review_of_terraform/</link>
       <pubDate>Wed, 30 Sep 2020 08:07:58 +0000</pubDate>
       
-      <guid>https://pedantic-brattain-b2caa7.netlify.app/blog/book_review_of_terraform/</guid>
+      <guid>https://techistory-blog.com/blog/book_review_of_terraform/</guid>
       <description>はじめに 前からずっとInfrastructure as a code</description>
     </item>
     

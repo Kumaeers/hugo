@@ -3,57 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/</loc>
+    <loc>https://techistory-blog.com/categories/bookreview/</loc>
+    <lastmod>2020-10-04T08:57:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techistory-blog.com/categories/</loc>
+    <lastmod>2020-10-04T08:57:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techistory-blog.com/blog/book_review_of_go_practice/</loc>
+    <lastmod>2020-10-04T08:57:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techistory-blog.com/categories/golang/</loc>
+    <lastmod>2020-10-04T08:57:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techistory-blog.com/</loc>
+    <lastmod>2020-10-04T08:57:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techistory-blog.com/categories/terraform/</loc>
     <lastmod>2020-09-30T08:07:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/</loc>
+    <loc>https://techistory-blog.com/blog/book_review_of_terraform/</loc>
     <lastmod>2020-09-30T08:07:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/terraform/</loc>
-    <lastmod>2020-09-30T08:07:58+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/blog/book_review_of_terraform/</loc>
-    <lastmod>2020-09-30T08:07:58+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/about/</loc>
+    <loc>https://techistory-blog.com/about/</loc>
     <lastmod>2020-09-27T11:40:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/categories/flutter/</loc>
+    <loc>https://techistory-blog.com/categories/flutter/</loc>
     <lastmod>2020-09-27T11:40:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/blog/flutter-tutorial/</loc>
+    <loc>https://techistory-blog.com/blog/flutter-tutorial/</loc>
     <lastmod>2020-09-27T11:40:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/blog/</loc>
+    <loc>https://techistory-blog.com/blog/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/contact/</loc>
+    <loc>https://techistory-blog.com/contact/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/search/</loc>
+    <loc>https://techistory-blog.com/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pedantic-brattain-b2caa7.netlify.app/tags/</loc>
+    <loc>https://techistory-blog.com/tags/</loc>
   </url>
   
 </urlset>

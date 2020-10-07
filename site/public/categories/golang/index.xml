@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on techistory</title>
+    <link>https://techistory-blog.com/categories/golang/</link>
+    <description>Recent content in golang on techistory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 04 Oct 2020 08:57:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://techistory-blog.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go_practice</title>
+      <link>https://techistory-blog.com/blog/book_review_of_go_practice/</link>
+      <pubDate>Sun, 04 Oct 2020 08:57:10 +0000</pubDate>
+      
+      <guid>https://techistory-blog.com/blog/book_review_of_go_practice/</guid>
+      <description>第一部まとめ POSTは冪等性でも安全でもないHTTPメソッド</description>
+    </item>
+    
+  </channel>
+</rss>
