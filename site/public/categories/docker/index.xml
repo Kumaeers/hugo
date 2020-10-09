@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Techistory</title>
+    <link>https://techistory-blog.com/categories/docker/</link>
+    <description>Recent content in Docker on Techistory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 09 Oct 2020 11:02:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://techistory-blog.com/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dockerネットワーク</title>
+      <link>https://techistory-blog.com/blog/docker_network/</link>
+      <pubDate>Fri, 09 Oct 2020 11:02:32 +0000</pubDate>
+      
+      <guid>https://techistory-blog.com/blog/docker_network/</guid>
+      <description>docker-composeのネットワークについて ​ 今回はd</description>
+    </item>
+    
+  </channel>
+</rss>
