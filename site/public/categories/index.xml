@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Techistory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 04 Oct 2020 08:57:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2020 11:02:32 +0000</lastBuildDate>
     
 	<atom:link href="https://techistory-blog.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker</title>
+      <link>https://techistory-blog.com/categories/docker/</link>
+      <pubDate>Fri, 09 Oct 2020 11:02:32 +0000</pubDate>
+      
+      <guid>https://techistory-blog.com/categories/docker/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bookreview</title>

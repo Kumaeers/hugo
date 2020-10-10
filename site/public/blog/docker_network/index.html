@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <meta name="description"
-    content="TechistroyはWeb開発に関する記事を発信しているブログです。">
+    content="docker-composeのネットワークをつなげる方法">
   
   <meta name="author" content="Kumaeers">
   
@@ -121,152 +121,117 @@
 </header>
 <!-- /navigation -->
 
+<ol class="breadcrumb">
 
 
-<section class="section-sm">
+
+
+  
+  
+    <li><a href="https://techistory-blog.com/" style="color:orange">Techistory</a>
+  
+
+  
+  
+    <li><a href="https://techistory-blog.com/blog/" style="color:orange">blog</a>
+  
+
+  
+    <li>Dockerネットワーク
+</ol>
+<section class="section-s">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          
-          
-          <div class="col-md-6 mb-4">
-  <article class="card">
-    
-    <img
-      src="https://techistory-blog.com/images/post/golang.jpeg"
-      class="card-img-top"
-      alt="Goプログラミング実践入門 標準ライブラリでゼロからWebアプリを作る"
-    />
-    
-    <div class="card-body px-0">
-      
-      <a
-        href="/categories/golang"
-        class="text-primary"
-        >Golang |</a
-      >
-      
-      <a
-        href="/categories/bookreview"
-        class="text-primary"
-        >Bookreview |</a
-      >
-      
-      <a href="https://techistory-blog.com/blog/book_review_of_go_practice/" class="h5 d-block my-3"
-        >Goプログラミング実践入門 標準ライブラリでゼロからWebアプリを作る</a
-      >
-      <div class="mb-3 post-meta">
-        <span>By Taiga Kato</span>
+      <div class="col-lg-8 mx-auto">
         
-        <span class="border-bottom border-primary px-2 mx-1"></span>
-        <span>04 October 2020</span>
+        <a href="/categories/docker"
+        class="text-primary">Docker</a>
         
-      </div>
-      <a href="https://techistory-blog.com/blog/book_review_of_go_practice/" class="btn btn-outline-primary">read more</a>
-    </div>
-  </article>
-</div>
-
+        <h2>Dockerネットワーク</h2>
+        <div class="mb-3 post-meta">
+          <span>By Masataka Okada</span>
           
-          
-          <div class="col-md-6 mb-4">
-  <article class="card">
-    
-    <img
-      src="https://techistory-blog.com/images/post/terraform.jpg"
-      class="card-img-top"
-      alt="「実践terraform awsにおけるシステム設計とベストプラクティス」をやってみた"
-    />
-    
-    <div class="card-body px-0">
-      
-      <a
-        href="/categories/terraform"
-        class="text-primary"
-        >Terraform |</a
-      >
-      
-      <a
-        href="/categories/bookreview"
-        class="text-primary"
-        >Bookreview |</a
-      >
-      
-      <a href="https://techistory-blog.com/blog/book_review_of_terraform/" class="h5 d-block my-3"
-        >「実践terraform awsにおけるシステム設計とベストプラクティス」をやってみた</a
-      >
-      <div class="mb-3 post-meta">
-        <span>By Taiga Katou</span>
-        
-        <span class="border-bottom border-primary px-2 mx-1"></span>
-        <span>30 September 2020</span>
-        
-      </div>
-      <a href="https://techistory-blog.com/blog/book_review_of_terraform/" class="btn btn-outline-primary">read more</a>
-    </div>
-  </article>
-</div>
-
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>09 October 2020</span>
           
         </div>
-      </div>
-      
-      <div class="col-lg-4">
-  
-  <div class="widget">
-    
-    <h4 class="widget-title">About</h4>
-    <p>Web開発に関する情報やチュートリアルを発信する技術ブログ。</p>
-    <a href="https://techistory-blog.com/about/" class="btn btn-outline-primary">Know More</a>
-    
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Category</h4>
-    <ul class="list-unstyled">
-      
-      
-      <li><a
-          href="/categories/bookreview">Bookreview</a>
-      </li>
-      <li><a
-          href="/categories/docker">Docker</a>
-      </li>
-      <li><a
-          href="/categories/flutter">Flutter</a>
-      </li>
-      <li><a
-          href="/categories/golang">Golang</a>
-      </li>
-      <li><a
-          href="/categories/terraform">Terraform</a>
-      </li>
-    </ul>
-  </div>
-  
-  
-  
-  
-  
-  
-</div>
-
-      
-
-      
-      <div class="col-12 mt-5">
         
+        <img src="https://techistory-blog.com/images/post/docker.png" class="img-fluid w-100 mb-4" alt="Dockerネットワーク">
         
+        <div class="content mb-5">
+          
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#docker-composeのネットワークについて">docker-composeのネットワークについて</a></li>
+    <li><a href="#結論">結論</a></li>
+    <li><a href="#具体的なコード">具体的なコード</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+  </ul>
+</nav>
+
+          <h2 id="docker-composeのネットワークについて">docker-composeのネットワークについて</h2>
+<p>​
+今回はdocker-composeのネットワーク同士を繋げる方法について説明していきます。</p>
+<p>Dockerを使って開発する際にAPI側とフロント側でリポジトリを分けたいというモチベーションが出てくる場合があるかと思います。</p>
+<p>ですが、docker-compose.ymlを分割すると別のネットワークになってしまい、コンテナからAPIにアクセスすることができなくなってしまいます。</p>
+<p>それを解決する方法がないかと調べてみました。</p>
+<h2 id="結論">結論</h2>
+<p>ネットワークを別で作成し、それぞれのdocker-composeにそのネットワークを指定する。</p>
+<h2 id="具体的なコード">具体的なコード</h2>
+<p>まず、共通で使うネットワークを作成します。</p>
+<pre><code>docker network create --driver bridge docker_network
+</code></pre><p>あとはそれぞれのdocker-composeに作成したネットワークを使うように指定するだけです。</p>
+<pre><code>services:
+  front:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    stdin_open: true
+    command: sh -c &quot;cd react-sample &amp;&amp; yarn start&quot;
+    ports:
+      - &quot;8000:3000&quot;
+    tty: true
+    networks:
+      - docker_network
+networks:
+  docker_network:
+    external: true
+</code></pre><h2 id="まとめ">まとめ</h2>
+<p>もっと良いやり方があるのかと思いましたが、このような方法しか見つけることができませんでした。</p>
+<p>dockerのデータが逼迫してきて</p>
+<pre><code>docker system prune
+</code></pre><p>などを使用すると作成したネットワークが消えてしまうのであまり良くないです。</p>
+<p>よりよい方法を見つけるために日々精進していきます！
+それでは！</p>
+
+        </div>
 
 
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-pedantic-brattain-b2caa7-netlify-app" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </div>
     </div>
   </div>
 </section>
-
 
 
 
